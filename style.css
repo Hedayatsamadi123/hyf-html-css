@@ -1,24 +1,24 @@
-
+html {
+    background-color:rgb(247, 247, 247);
+}
 body{
-    font-weight: ;
+    background-color:white;
     font-family:Arial, Helvetica, sans-serif;
     color: #594b3a;
     max-width: 1500px;
-    width: 70%;
-    margin: 0 auto;
-    background-color: white;
-    margin-right: 120px;
-    margin-left: 120px;
-    margin-top: 0px;
+    width: 85%;
+    padding-left: 40px;
+    padding-right:30px;
+    margin:0 auto;
 }
 h1 {
     font-family: serif;
     font-size: 25px;
     font-weight: lighter;
-    border-bottom: #ddd solid 4px;
-    border-top: #ddd solid 2px;
+    border-bottom: rgb(243, 238, 238) solid 4px;
+    border-top: rgb(243, 238, 238) solid 4px;
     Text-align: center;
-    padding-top: 1%; 
+    padding-top: 15px; 
     padding-bottom: 1%;
     color: #7c6e5e;
     letter-spacing: 0.3rem;
@@ -117,4 +117,5 @@ table tr:hover{
     background-color: #add;
     border: 1px dashed #594b3a;
 }
+
 
