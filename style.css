@@ -6,6 +6,10 @@ body{
     max-width: 1500px;
     width: 70%;
     margin: 0 auto;
+    background-color: white;
+    margin-right: 120px;
+    margin-left: 120px;
+    margin-top: 0px;
 }
 h1 {
     font-family: serif;
