@@ -3,7 +3,7 @@ body{
     font-family:Arial, Helvetica, sans-serif;
     color: #594b3a;
     max-width: 1500px;
-    width: 100%;
+    width:100%;
     margin: 0 auto;
 }
 h1 {
@@ -111,9 +111,5 @@ table tr:nth-child(even) {
 table tr:hover{
     background-color: #add;
     border: 1px dashed #594b3a;
-}
-table bottom border {
-
-
 }
 
