@@ -118,6 +118,15 @@ table tr:hover{
     background-color: #add;
     border: 2px dashed white;
 }
-
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .img .artp {
+    width: 95%;
+  }
+}
+@media only screen and (max-resolution: 150dpi) and (max-width: 480px) {
+  body {
+    font-size: 20px
+  }
+}
 
 
