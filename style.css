@@ -118,7 +118,7 @@ table tr:hover{
     background-color: #add;
     border: 2px dashed white;
 }
-@media only screen and (min-width: 250px) {
+@media only screen and (max-width: 250px) {
   .img {
     width: 50%;
   }
