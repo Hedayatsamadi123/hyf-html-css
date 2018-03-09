@@ -1,26 +1,18 @@
-html {
-    background-color:rgb(247, 247, 247);
-}
 body{
     background-color:white;
     font-family:Arial, Helvetica, sans-serif;
     color: #594b3a;
-    width: 85%;
-    padding-left: 40px;
-    padding-right:30px;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
     margin:0 auto;
 }
-h1 {
-    font-family: serif;
-    font-size: 25px;
-    font-weight: lighter;
+header {
+    text-align: center;
     border-bottom: rgb(243, 238, 238) solid 4px;
     border-top: rgb(243, 238, 238) solid 4px;
-    Text-align: center;
-    padding-top: 15px; 
-    padding-bottom: 1%;
-    color: #7c6e5e;
-    letter-spacing: 0.3rem;
+    color: rgb(185, 177, 177);
+    margin-top: 45px;  
 }
 h2 {
     font-style: normal;
@@ -33,8 +25,12 @@ h2 {
 img {
     float: left;
     margin-right: 30px;
-    width: 400px;
-    height: 250px;
+    width: 50%;;
+    height: auto;
+}
+#img-p {
+    margin-top: 25px;
+    margin-right: 75px;
 }
 .clearfix  {
     clear: both;
@@ -43,12 +39,6 @@ p {
     line-height: 1.5;
     position: initial;
 }
-.artp {
-    padding-right: 5%;
-    padding-top: 0.1px;
-}
-
-
 .list{
     color:#43948e;
 }
@@ -75,36 +65,32 @@ th {
 caption {
     padding-bottom: 3%;
 }
-.created {
-    text-align: center;
-    font-size: 12px;
-}
-.quote {
-    background-color: #f1f0f0;
-    font-size: 25px;
+blockquote {
+    background-color:#F7F6F4;
+    padding: 1.5em 1.5em 3em;
+    margin: 0 0 4em 0;
     font-family: serif;
-    font-style: italic;
-    font-weight: normal;
-    padding: 10px 10px 1px 20px;
-    margin-bottom: 40%;
-    line-height: 1px;
 }
-.albert  {
+blockquote p {
+    font-size: 1.8em;
+    font-style: italic;
+    margin: 0 0 1em;
+}
+cite {
     text-align: right;
-    padding-bottom: 5%;
-    padding-right: 2%;
+    display: block;
+    font-size: 1.3em;
 }
 h2 a {
     font-size: 7px;
 }
 caption a {
     font-size: 7px;
-
 }
-
+/* Table */
 table {
-width: 100%;
-
+    width: 100%;
+    padding-bottom: 140px;
 }
 table td, table th {
     border: 1px solid #add;
@@ -117,16 +103,12 @@ table tr:hover{
     background-color: #add;
     border: 2px dashed white;
 }
-@media only screen and (max-width: 250px) {
-  .img {
-    width: 50%;
-  }
+/* Footer */
+footer {
+    border-top: 1px solid #a8acab;
+    padding-top: 5px;
+    padding-bottom: 400px;
+    margin-top: 120px;
+    text-align: center;
+    font-size: 12px;
 }
-@media only screen and (max-resolution: 150dpi) and (max-width: 480px) {
-  body {
-    font-size: 15px
-    width: 100%;
-  }
-}
-
-
