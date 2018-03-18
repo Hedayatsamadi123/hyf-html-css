@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>index4</title>
+</head>
+<body>
+<script src="myScript.js"></script>
+    <header>
+        <div>
+            <img src="https://cdn0.iconfinder.com/data/icons/shift-logotypes/32/Microsoft-256.png" alt="logo" class="logo">
+           </div>
+           <div class="dropdown">
+              <button class="dropbtn">Navigation</button>
+              <div class="dropdown-content">
+                <a href="#">Menu</a>
+                <a href="#">Contact</a>
+                <a href="#">About</a>
+              </div>
+            </div>
+        </header>
+        <h1>Sign up to yourcustomtailor.com</h1>
+        <h2><b>Step 4/4 - how can we reach you?</b></h2>
+        <p><b>Progress</b></p>
+        <div class="progressborder4">
+          <div class="progress4"></div>
+        </div>
+<p>Please fill in the payment data</p>
+<form>
+<label for="nameOnCard" class="nameOnCard">Name on card</label>
+<input required="" id="nameOnCard" name="nameOnCard" title="numbers are not allowed" type="text"><br>
+<label for="cardType" class="cardType">Card type</label>
+<select name="cardType" id="cardType">
+    <option value="Visa">Visa</option>
+    <option value="Mastercard">Master card</option>
+    <option value="Mestro">Mestro</option>
+    <option value="American">American Express</option>
+    <option value="discover">Discover</option>
+</select><br>
+<label for="carddNo" class="cardNo">Credit card number</label>
+<input required="" id="carddNo" maxlength="16" name="cardNo" pattern="[0-9]{16}" title="16 digits number only" onkeyup="return checkCard ()" type="text"><br>
+
+<label for="expiryMonth" class="expiryMonth">Expiry Month</label>
+<input required="" name="expiryMonth" id="expiryMonth" min="01" max="12" title="valu must be less than or equal to 12" type="number">
+
+<label for="expiryYear" class="expiryYear">Expiry Year</label>
+<input required="" name="expiryYear" id="expiryYear" min="18" max="40" title="value must be between 18 and 40" type="number"><br>
+
+<label for="ccv" class="ccv">CCV</label>
+<input required="" name="ccv" id="ccv" maxlength="3" pattern="[0-9]{3}" title="only 3 digits number" onkeyup=" return checkCcv ()" type="text">
+</form>
+<footer>
+    <form class="submitFor4" action="index4.html">
+        <input class="nextStep" id="nextStep" value="Next step" type="submit">
+     </form>
+</footer>
+</body>
+</html>

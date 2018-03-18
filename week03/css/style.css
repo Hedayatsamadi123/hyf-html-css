@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box }
+  body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 25px 250px 250px 100px;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 170px;
+  height: 120px;
+  padding: 14px;
+  padding-top: 0 ; 
+  clear: both;
+}
+.dropbtn {
+  background-color: orange;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  width: 350px;
+  height: 100px;
+  
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 150px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #c5e60e;
+  min-width: 350px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: center;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #e4bc0d}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #e4bc0d;
+}
+.progressborder {
+  border: 1px solid black;
+}
+.progress{
+  background-color: orange;
+  width: 25%;
+  height: 45px;
+  border: none;
+}
+input[type=text], select, textarea {
+  width: 40%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+.Profilecontainer {
+  display: flex;
+  justify-content: space-between;
+}
+.Profile-description{
+  width: 20%;
+  padding: 5px;
+  clear: both;
+}
+.profile-text-box {
+  width: 80%;
+  padding: 5px;
+}
+textarea {
+  width: 100%;
+}
+input[type=submit] {
+  background-color: orange;
+  width: 350px;
+  height: 100px;
+  float: right;
+  border: none;
+}
+form {
+  width: 100%;
+  padding-bottom: 150px;
+  padding: 10px;
+}
+.progressborder2 {
+  border: 1px solid black;
+}
+.progress2{
+  background-color: orange;
+  width: 50%;
+  height: 45px;
+  border: none;
+}
+input[type=password], input[type=tel], input[type=email] {
+  width: 40%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+
+}
+.progressborder3 {
+  border: 1px solid black;
+}
+.progress3 {
+  background-color: orange;
+  width: 75%;
+  height: 45px;
+  border: none;
+}
+.form3 {
+  font-weight: bold;
+  padding: 10px;
+}
+.jewelry {
+  margin-left: 165px;
+}
+.shoes {
+  margin-left: 176px;
+}
+.apparal {
+  margin-left: 35px;
+}
+.handbags {
+  margin-left: 18px;
+}
+img {
+  width: 250px;
+}
+.imagesection1 {
+  display: flex;
+  justify-content: space-around;
+
+}
+.images1 {
+  margin-top: 20px;
+  font-weight: bold;
+}
+.imagesection2{
+  display: flex;
+  justify-content: space-around;
+}
+.progressborder4 {
+  border: 1px solid black;
+}
+.progress4 {
+  background-color: orange;
+  width: 95%;
+  height: 45px;
+  border: none;
+}
+.nameOnCard {
+  margin-left: 35px;
+}
+.cardType {
+  margin-left: 65px;
+}
+.expiryMonth {
+  margin-left: 45px;
+}
+.ccv {
+  margin-left: 105px;
+}
+@media screen and (max-width: 650px) {
+  input[type=text], select, textarea,header,img, .dropdown, .dropbtn {
+      width: 100%;
+      margin: 0;
+  }
+}
+@media only screen and (max-width: 650px) {
+  body {
+    margin: 20px; ;
+  }
+  .dropdown, Profilecontainer, input[type=password] {
+    width: 100%;
+  }
+  input[type=submit] {
+    width: 30%;
+  }
+}
+
